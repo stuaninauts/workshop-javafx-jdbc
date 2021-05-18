@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+
+<VBox prefHeight="504.0" prefWidth="674.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/16">
+   <children>
+      <Label text="About">
+         <font>
+            <Font name="System Bold" size="45.0" />
+         </font>
+         <padding>
+            <Insets bottom="10.0" left="20.0" top="10.0" />
+         </padding>
+      </Label>
+      <Label text="JavaFX">
+         <font>
+            <Font size="30.0" />
+         </font>
+         <padding>
+            <Insets bottom="10.0" left="40.0" top="10.0" />
+         </padding>
+      </Label>
+      <Label prefHeight="21.0" prefWidth="677.0" text="JavaFX is an open source, next generation client application platform for desktop, mobile">
+         <padding>
+            <Insets left="40.0" />
+         </padding>
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Label>
+      <Label prefHeight="21.0" prefWidth="677.0" text="and embedded systems built on Java. It is a collaborative effort by many individuals and">
+         <padding>
+            <Insets left="40.0" />
+         </padding>
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Label>
+      <Label prefHeight="21.0" prefWidth="677.0" text="companies with the goal of producing a modern, efficient, and fully featured toolkit for">
+         <padding>
+            <Insets left="40.0" />
+         </padding>
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Label>
+      <Label prefHeight="21.0" prefWidth="677.0" text="developing rich client applications.">
+         <padding>
+            <Insets left="40.0" />
+         </padding>
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Label>
+   </children>
+</VBox>

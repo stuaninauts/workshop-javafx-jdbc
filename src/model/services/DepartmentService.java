@@ -8,21 +8,21 @@ import model.entities.Department;
 
 public class DepartmentService {
 
-	private DepartmentDao depDao = DaoFactory.createDepartmentDao();
+	private DepartmentDao dao = DaoFactory.createDepartmentDao();
 	
 	public List<Department> findAll() {
-		return depDao.findAll();
+		return dao.findAll();
 	}
 	
 	public void saveOrUpdate(Department obj) {
 		if (obj.getId() == null) {
-			depDao.insert(obj);
+			dao.insert(obj);
 		} else {
-			depDao.update(obj);
+			dao.update(obj);
 		}
 	}
 	
 	public void remove(Department obj) {
-		depDao.deleteById(obj.getId());
+		dao.deleteById(obj.getId());
 	}
 }
